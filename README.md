@@ -1,41 +1,41 @@
-# Cybersecurity Networking Fundamentals
+# Cybersecurity Learning Repository
 
-Welcome to my personal cybersecurity lab notebook. This repository documents my heands-on journey through core networking and packet analysis concepts using tools like **Wireshark**, starting from the ground up. Each folder below breaks down a key networking concept with summaries, captures, and write-ups for easy studying and reference. 
-
----
-
-## Phase 1: Networking Basics
-
-| Topic                  | Description
-|------------------------|-------------------------------
-| [networking_basics](./networking_basics)      | Core concepts: OSI model, IP addressing, MAC vs IP, TCP/UDP, etc.  |
-| [dns_analysis](./dns_analysis)                | Packet capture and analysis of DNS queries and responses  |
-| [tcp_handshake](./tcp_handshake)              | Understanding the TCP 3-way handshake (SYN, SYN-ACK, ACK)  |
-| [http_analysis](./http_analysis)              | Analyzing HTTP GET requests, responses, and full stream inspection  |
+This repository documents my hands-on journey into the world of cybersecurity — breaking down complex topics into digestible, real-world examples and packet-level analysis.
 
 ---
 
-## Coming Soon
+## Table of Contents
 
-- 'https_tls': TLS handshake, HTTPS vs HTTP, encrypted traffic patterns
-- 'malware_traffic_analysis': Detecting suspicious/malicious packet behavior
-- 'packet_sniffing_tools': Wireshark tips, filters, and interface configuration
-- 'real_world_labs': Pracitical simulations (man-in-the-middle, sniffed credentials)
-- 'ids_ips': Intro to Intrusion Detection/Prevention Systems (e.g., Snort)
+### Phase 1 – Networking Foundations & Protocol Analysis
+
+1. **[Networking Basics](./networking_basics/README.md)**  
+   Overview of fundamental networking concepts including IP addressing, ports, protocols, OSI model, and interfaces.
+
+2. **[DNS Traffic Analysis](./dns_traffic/README.md)**  
+   Hands-on analysis of DNS query/response flow using Wireshark. Includes inspection of query types, response codes, and SNI resolution.
+
+3. **[HTTP Traffic Analysis](./http_traffic/README.md)**  
+   Deep dive into unencrypted HTTP requests and responses, including GET/POST methods, status codes, and headers.
+
+4. **[TLS 1.2 Handshake](./tls_handshake/tls12_handshake.md)**  
+   Full breakdown of a secure TLS 1.2 handshake, observed in Wireshark. Highlights each stage of negotiation and transition to encrypted communication.
 
 ---
 
 ## Tools Used
 
--Wireshark
--Kali Linux (VirtualBox)
--macOS Terminal
--GitHub
+- **Wireshark** – for packet capture and protocol analysis  
+- **VirtualBox + Kali Linux** – testing environment  
+- **curl & browser** – traffic generation  
+- **GitHub** – version control and documentation
 
 ---
 
-## About
+## Notes
 
-I'm learning cybersecurity from the ground up - this repo reflects my progress and study notes as I master foundational networking concepts critical for analysis, detection, and defense in the field.
+Each folder includes:
+- A `.md` file summarizing what was learned
+- Screenshots (optional)
+- Packet-level explanations using real-world websites and tools
 
-> **#KREWLONLY** - Secure. Study. Execute.
+This repo is being actively built as part of my cybersecurity foundation — focusing on hands-on skill development from the ground up.
